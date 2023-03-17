@@ -72,7 +72,8 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"https://ixbt.online/gametech/covers/2020/10/18/cw6xzLDEJo3vEFqH0WzQFUhzrnF2WA5shcPwAaWj.jpeg"
+	"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d11d829f-a832-496d-b606-95c8ce011d10/ddj8qlg-03523ae2-047c-4af3-82c3-82581d2bfeee.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QxMWQ4MjlmLWE4MzItNDk2ZC1iNjA2LTk1YzhjZTAxMWQxMFwvZGRqOHFsZy0wMzUyM2FlMi0wNDdjLTRhZjMtODJjMy04MjU4MWQyYmZlZWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ru0se4BGJq422u1M0VGFtNet27gLwAFAPZIv5zK-gq0"
+	"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d11d829f-a832-496d-b606-95c8ce011d10/dcltl0u-db7f3332-9da5-4baf-a277-700adfdee1d2.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QxMWQ4MjlmLWE4MzItNDk2ZC1iNjA2LTk1YzhjZTAxMWQxMFwvZGNsdGwwdS1kYjdmMzMzMi05ZGE1LTRiYWYtYTI3Ny03MDBhZGZkZWUxZDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Of74xrjhA8aMW3FTHL2DNv8gz8p96msk5nucnyCr_Vg"
 ];
 
 // (Image-background only)
@@ -111,7 +112,9 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{youtube: "https://youtu.be/5i4qKemaZG4", name: "Silent Hill"},
+	{youtube: "https://www.youtube.com/watch?v=DOAvSbUmXAA", name: "Containment Breach - Main Menu Theme"},
+	{youtube: "https://www.youtube.com/watch?v=TilNCQUhug0", name: "SCP: Secret Laboratory - Crinkle "},
+	{youtube: "https://www.youtube.com/watch?v=OqcJ3khEbNU", name: "SCP Fandom - THIS IS YOUR LAST WARNING!"},
 ];
 
 // Random music order?
