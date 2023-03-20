@@ -1,3 +1,4 @@
+
 //       _           _    _                     _ 
 //      | |         | |  | |                   | |
 //   ___| | ___  ___| | _| |     ___   __ _  __| |
@@ -72,7 +73,7 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"https://hdwallpaperim.com/wp-content/uploads/2017/08/25/452673-Scp-logo.jpg",
+	"https://ixbt.online/gametech/covers/2020/10/18/cw6xzLDEJo3vEFqH0WzQFUhzrnF2WA5shcPwAaWj.jpeg"
 ];
 
 // (Image-background only)
@@ -111,9 +112,7 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{youtube: "https://www.youtube.com/watch?v=DOAvSbUmXAA", name: "Containment Breach - Main Menu Theme"},
-	{youtube: "https://www.youtube.com/watch?v=TilNCQUhug0", name: "SCP: Secret Laboratory - Crinkle "},
-	{youtube: "https://www.youtube.com/watch?v=OqcJ3khEbNU", name: "SCP Fandom - THIS IS YOUR LAST WARNING!"},
+	{youtube: "https://youtu.be/5i4qKemaZG4", name: "Silent Hill"},
 ];
 
 // Random music order?
