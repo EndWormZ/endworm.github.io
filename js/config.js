@@ -72,7 +72,7 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"https://hdwallpaperim.com/wp-content/uploads/2017/08/25/452673-Scp-logo.jpg"
+	"https://hdwallpaperim.com/wp-content/uploads/2017/08/25/452673-Scp-logo.jpg",
 ];
 
 // (Image-background only)
