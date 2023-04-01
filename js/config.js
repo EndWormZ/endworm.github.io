@@ -118,7 +118,7 @@ var l_musicPlaylist = [
 	{youtube: "https://www.youtube.com/watch?v=DOAvSbUmXAA", name: "Containment Breach - Main Menu Theme"},
 	{youtube: "https://www.youtube.com/watch?v=TilNCQUhug0", name: "SCP: Secret Laboratory - Crinkle "},
 	{youtube: "https://www.youtube.com/watch?v=OqcJ3khEbNU", name: "SCP Fandom - THIS IS YOUR LAST WARNING!"},
-	{youtube: "https://www.youtube.com/watch?v=rcrn8Gng9NY", name: "Mick Grodon - The New Order"},
+	{youtube: "https://www.youtube.com/watch?v=rcrn8Gng9NY", name: "Mick Gordon - The New Order"},
 ];
 
 // Random music order?
