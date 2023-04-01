@@ -73,10 +73,10 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"https://media.discordapp.net/attachments/1091464360976732250/1091465306335088772/1626160403_59-kartinkin-com-p-teksturi-garris-mod-krasivo-60.jpg",
-	"https://media.discordapp.net/attachments/1091464360976732250/1091465307610169394/5f9eef8ceb8aa.jpg",
-	"https://media.discordapp.net/attachments/1091464360976732250/1091465306851000450/1451895540_749267_1532364890_portada_normal.jpg",
-	"https://media.discordapp.net/attachments/1091464360976732250/1091465307132006523/1647022378_35-kartinkin-net-p-kartinki-garris-mod-39.jpg?width=1138&height=910",
+	"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7d67e384-5020-465f-92b9-ea052e95b325/d9923kk-73b5bf24-177f-4adf-8d07-f73c9eab7b62.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdkNjdlMzg0LTUwMjAtNDY1Zi05MmI5LWVhMDUyZTk1YjMyNVwvZDk5MjNray03M2I1YmYyNC0xNzdmLTRhZGYtOGQwNy1mNzNjOWVhYjdiNjIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.x6A0dU0D4Ce_IaGEMcVA8la7bSPHzfue9jaWL8ffh8M",
+	"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d11d829f-a832-496d-b606-95c8ce011d10/dbq5i54-1dcf5e85-aa26-48e6-a8de-4e54480505de.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QxMWQ4MjlmLWE4MzItNDk2ZC1iNjA2LTk1YzhjZTAxMWQxMFwvZGJxNWk1NC0xZGNmNWU4NS1hYTI2LTQ4ZTYtYThkZS00ZTU0NDgwNTA1ZGUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Utl_zuO-bJ19lpUtf9zkcf2dFdsJPhWsJYsA_TH9DJk",
+	"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d11d829f-a832-496d-b606-95c8ce011d10/dbtps16-dc645d14-a3c6-4f8b-b942-a41cf8497499.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QxMWQ4MjlmLWE4MzItNDk2ZC1iNjA2LTk1YzhjZTAxMWQxMFwvZGJ0cHMxNi1kYzY0NWQxNC1hM2M2LTRmOGItYjk0Mi1hNDFjZjg0OTc0OTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bXVJO_As_DJ9YA9pVUIbBBfpMYzn32bD4S0vilVCRlk",
+	"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d11d829f-a832-496d-b606-95c8ce011d10/deii84m-feadf785-d54e-41b8-a81a-e18b85007425.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QxMWQ4MjlmLWE4MzItNDk2ZC1iNjA2LTk1YzhjZTAxMWQxMFwvZGVpaTg0bS1mZWFkZjc4NS1kNTRlLTQxYjgtYTgxYS1lMThiODUwMDc0MjUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.WvavV-ONgk614MAas0z07SBwwljuMt8sFIhAlmeYK04",
 ];
 
 // (Image-background only)
@@ -115,7 +115,10 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{youtube: "https://www.youtube.com/watch?v=JQfBHvr_WVs", name: "ПИЗДЕЦ БЛЯТЬ Я ЕБАЛ!"},
+	{youtube: "https://www.youtube.com/watch?v=DOAvSbUmXAA", name: "Containment Breach - Main Menu Theme"},
+	{youtube: "https://www.youtube.com/watch?v=TilNCQUhug0", name: "SCP: Secret Laboratory - Crinkle "},
+	{youtube: "https://www.youtube.com/watch?v=OqcJ3khEbNU", name: "SCP Fandom - THIS IS YOUR LAST WARNING!"},
+	{youtube: "https://www.youtube.com/watch?v=rcrn8Gng9NY", name: "Mick Grodon - The New Order"},
 ];
 
 // Random music order?
