@@ -73,7 +73,10 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"https://hdwallpaperim.com/wp-content/uploads/2017/08/25/452673-Scp-logo.jpg",
+	"https://media.discordapp.net/attachments/1091464360976732250/1091465306335088772/1626160403_59-kartinkin-com-p-teksturi-garris-mod-krasivo-60.jpg",
+	"https://media.discordapp.net/attachments/1091464360976732250/1091465307610169394/5f9eef8ceb8aa.jpg",
+	"https://media.discordapp.net/attachments/1091464360976732250/1091465306851000450/1451895540_749267_1532364890_portada_normal.jpg",
+	"https://media.discordapp.net/attachments/1091464360976732250/1091465307132006523/1647022378_35-kartinkin-net-p-kartinki-garris-mod-39.jpg?width=1138&height=910",
 ];
 
 // (Image-background only)
@@ -112,9 +115,7 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{youtube: "https://www.youtube.com/watch?v=DOAvSbUmXAA", name: "Containment Breach - Main Menu Theme"},
-	{youtube: "https://www.youtube.com/watch?v=TilNCQUhug0", name: "SCP: Secret Laboratory - Crinkle "},
-	{youtube: "https://www.youtube.com/watch?v=OqcJ3khEbNU", name: "SCP Fandom - THIS IS YOUR LAST WARNING!"},
+	{youtube: "https://www.youtube.com/watch?v=BdPFzPdGDSs&t=268s", name: "ПИЗДЕЦ БЛЯТЬ Я ЕБАЛ!"},
 ];
 
 // Random music order?
