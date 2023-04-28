@@ -115,10 +115,7 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{youtube: "https://www.youtube.com/watch?v=DOAvSbUmXAA", name: "Containment Breach - Main Menu Theme"},
-	{youtube: "https://www.youtube.com/watch?v=TilNCQUhug0", name: "SCP: Secret Laboratory - Crinkle "},
-	{youtube: "https://www.youtube.com/watch?v=OqcJ3khEbNU", name: "SCP Fandom - THIS IS YOUR LAST WARNING!"},
-	{youtube: "https://www.youtube.com/watch?v=rcrn8Gng9NY", name: "Mick Gordon - The New Order"},
+	{youtube: "https://www.youtube.com/watch?v=DB0haxYegNk", name: "Resident Evil 3 - Safe Room Theme"},
 ];
 
 // Random music order?
