@@ -118,7 +118,7 @@ var l_musicDisplay = true;
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
 	{youtube: "https://youtu.be/E_38h0A65pc", name: "Николас Окерблад - Daisuke"},
-        {youtube: "https://youtu.be/LEofMUNn2ew", name: "Scattle - Bloodline"},
+        {youtube: "https://youtu.be/lsBwNmb5oWs", name: "Scattle - Bloodline"},
 	{youtube: "https://youtu.be/975mEVSESIs", name: "Николас Окерблад - Ghost"},
         {youtube: "https://youtu.be/QgvBr9Q3sNE", name: "Николас Окерблад - Rust"},
 ];
