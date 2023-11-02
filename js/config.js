@@ -120,7 +120,7 @@ var l_musicPlaylist = [
 	{youtube: "https://youtu.be/QU2EHrwdT-U?si=Cz9NDm1JVtVHiYAP", name: "Harry101UK - Dyson Spheres"},
 	{youtube: "https://youtu.be/Keu6auKjrVY?si=EmrnL1-bA7UBlca5", name: "Harry101UK - Kepler Dimension"},
         {youtube: "https://youtu.be/bRvdDCQ4u90?si=UhMD9SImjfqD4IoU", name: "Spencer Baggett - Entropy Zero"},
-        {youtube: "https://youtu.be/FpfBBIqiVVQ?si=WNwM1WnYAvkgUHDK", name: "Operation Black Mesa - We are Pulling Out"},
+        {youtube: "https://youtu.be/FpfBBIqiVVQ?si=J1EhHaW4SQcNTCZw", name: "Operation Black Mesa - We are Pulling Out"},
 ];
 
 // Random music order?
