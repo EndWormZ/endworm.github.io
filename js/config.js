@@ -117,11 +117,9 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{youtube: "https://youtu.be/5IEF9UKinqM?si=TGTH9NgC0maoq63Y", name: "Harry101UK - Limited Exposure"},
-	{youtube: "https://youtu.be/Keu6auKjrVY?si=p_CLSrE2WwcijueK", name: "Harry101UK - Kepler Dimension"},
-        {youtube: "https://youtu.be/QU2EHrwdT-U?si=GTlF0KtcL5SY2Z7W", name: "Harry101UK - Dyson Spheres"},
-        {youtube: "https://youtu.be/cu6MKW9uZKU?si=QG2NhzlmWvO6mihN", name: "ADMClef - Take Care"},
-	{youtube: "https://youtu.be/hY4r7menoek?si=-Y6YWAeAPd5SQtxI", name: "SCP Containment Breach Soundtrack - Menu Ambience"},
+	{youtube: "https://www.youtube.com/watch?v=W2oNvemmi7g", name: "Мистер Ви - Говновоз Монстра"},
+	{youtube: "https://www.youtube.com/watch?v=FQtPSH2ibYQ", name: "Говновоз"},
+        {youtube: "https://www.youtube.com/watch?v=h9rD1sYqnIE", name: "говновоз с каре"},
 ];
 
 // Random music order?
