@@ -117,9 +117,9 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-{youtube: "https://youtu.be/CNXeFFZv-mQ?si=XygQTzkreghBExb2", name: "Perturbator - Vengeance"},
-{youtube: "https://youtu.be/e8btkMNZ7NM?si=vRuF24JK9gAMKSAC", name: "Perturbator - I am the Night"},
-{youtube: "https://youtu.be/SY-SWpmhB_c?si=vrAVm7xyY9YKGWYb", name: "Perturbator - Desire"},
+{youtube: "https://www.youtube.com/watch?v=3KZlggHqU7M", name: "Perturbator - Vengeance"},
+{youtube: "https://www.youtube.com/watch?v=7f8TWRxTVPE", name: "Perturbator - I am the Night"},
+{youtube: "https://www.youtube.com/watch?v=4drHKqrLgiw", name: "Perturbator - Desire"},
 {youtube: "https://www.youtube.com/watch?v=ZhhQrFfzFM4", name: "Carpeter Brut - Escape from Midwich Valley"},
 ];
 
