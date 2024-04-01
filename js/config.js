@@ -73,16 +73,12 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"https://gamerwall.pro/uploads/posts/2021-12/1639143533_5-gamerwall-pro-p-krutie-tachki-s-ognem-fentezi-krasivo-oboi-5.jpg",
-        "https://th.bing.com/th/id/OIP.HMAvUMeOofTpKqo3e2N9CgEsCo?rs=1&pid=ImgDetMain",
-        "https://th.bing.com/th/id/R.05401295ea267d6d623590413f8b49bf?rik=9TqP00deCfiOKQ&riu=http%3a%2f%2fwww.mobilmusic.ru%2fmfile%2f27%2f78%2f5b%2f1296365.jpg&ehk=L25gtpgskExVyeHI%2bx9x%2bk%2bYbhBxZe0335a%2bYG7TbJQ%3d&risl=&pid=ImgRaw&r=0",
-	"https://vjoy.cc/wp-content/uploads/2020/12/unnamed-50.jpg",
-        "https://coolsen.ru/wp-content/uploads/2021/06/119-5.jpg",
-        "https://th.bing.com/th/id/R.d519f90627a4ab5c45e1391a3f667a43?rik=v1E8iLwFGsWvqQ&pid=ImgRaw&r=0",
-	"https://th.bing.com/th/id/OIP.1M_1LuaLhMwKQgcdPllohgHaHa?rs=1&pid=ImgDetMain",
-        "https://th.bing.com/th/id/OIP.vIYEdjXaK1mEk_Dac24uzgHaLI?rs=1&pid=ImgDetMain",
-        "https://th.bing.com/th/id/OIP.E_WPGtBbSnRYWp-2OoFJ_QHaHa?rs=1&pid=ImgDetMain",
-	
+	"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ec7d26b1-d557-47c1-a877-6050004d2fc2/dbb7hcs-1f9e8f0a-c4c7-4fc9-baf6-9e075ce86e30.jpg/v1/fill/w_1210,h_661,q_70,strp/cyberpunk_city_by_artursadlos_dbb7hcs-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA0OSIsInBhdGgiOiJcL2ZcL2VjN2QyNmIxLWQ1NTctNDdjMS1hODc3LTYwNTAwMDRkMmZjMlwvZGJiN2hjcy0xZjllOGYwYS1jNGM3LTRmYzktYmFmNi05ZTA3NWNlODZlMzAuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.GD3LU0BXLk6l52PMsWZ_qnZ_iGnMQ5RXm92XjTWjoDA",
+	"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b9efbc15-761b-4eb1-818f-a87f60753ce6/dd1zbnp-ef451a3c-89f6-4789-ac1c-f319e9eb1d7a.jpg/v1/fill/w_1280,h_531,q_75,strp/dark_city_by_jordangrimmer_dd1zbnp-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTMxIiwicGF0aCI6IlwvZlwvYjllZmJjMTUtNzYxYi00ZWIxLTgxOGYtYTg3ZjYwNzUzY2U2XC9kZDF6Ym5wLWVmNDUxYTNjLTg5ZjYtNDc4OS1hYzFjLWYzMTllOWViMWQ3YS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.91BhbbaslutCXow38y5F6A8uHDhzOP3Dg1iziTrLTDw",
+	"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aee9d666-9640-47c2-b11d-6d9306e7ec52/da1i295-75ed5033-3f51-4fb0-8d24-f350a8c40abf.jpg/v1/fill/w_1245,h_642,q_70,strp/on_the_street_by_kalberoos_da1i295-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjYwIiwicGF0aCI6IlwvZlwvYWVlOWQ2NjYtOTY0MC00N2MyLWIxMWQtNmQ5MzA2ZTdlYzUyXC9kYTFpMjk1LTc1ZWQ1MDMzLTNmNTEtNGZiMC04ZDI0LWYzNTBhOGM0MGFiZi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.spu2c1WNbWKoz5UMgM1jI8IeXjQPAC2YMwIzKKbIhns",
+	"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c4d3f848-c016-40c9-aaa6-e47e633a1d19/d7hxult-73438510-be02-40b3-ba81-e08234bd30da.jpg/v1/fill/w_1024,h_576,q_75,strp/cyberpunk_city_speedpaint_by_tryingtofly_d7hxult-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvYzRkM2Y4NDgtYzAxNi00MGM5LWFhYTYtZTQ3ZTYzM2ExZDE5XC9kN2h4dWx0LTczNDM4NTEwLWJlMDItNDBiMy1iYTgxLWUwODIzNGJkMzBkYS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.O1hy1I3v5NCzgjs0_w3smSKz1yBZgSHwDTMRRTHauho",
+	"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bbaa048a-5807-4dc1-b2d3-766796da9c8f/d83vjqq-1ec3205a-3bc5-4739-a703-075489395d4c.jpg/v1/fill/w_1024,h_547,q_75,strp/cyberpunk_cityscape_by_klauspillon_d83vjqq-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTQ3IiwicGF0aCI6IlwvZlwvYmJhYTA0OGEtNTgwNy00ZGMxLWIyZDMtNzY2Nzk2ZGE5YzhmXC9kODN2anFxLTFlYzMyMDVhLTNiYzUtNDczOS1hNzAzLTA3NTQ4OTM5NWQ0Yy5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.InOSqGbok1ztky5YP7lD_0_ksNyvwoTXXx_Et1QlfPI",
+	"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51bad5a5-a63e-4bbf-9937-6b5b78416457/dcluhiu-8d0a044b-dbda-47ff-866c-883906e0cd7e.jpg/v1/fill/w_1024,h_512,q_75,strp/wraith_by_allrichart_dcluhiu-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNTFiYWQ1YTUtYTYzZS00YmJmLTk5MzctNmI1Yjc4NDE2NDU3XC9kY2x1aGl1LThkMGEwNDRiLWRiZGEtNDdmZi04NjZjLTg4MzkwNmUwY2Q3ZS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.AJK_4Zjse7IocZ8hTpyNbaJGdQjT7CsfmGbHLQi8Y54",
 ];
 
 // (Image-background only)
@@ -121,12 +117,10 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-{youtube: "https://www.youtube.com/watch?v=3FPwcaflCS8", name: "https://slotoking.ua/"},
-{youtube: "https://www.youtube.com/watch?v=5hEh9LiSzow", name: "https://slotoking.ua/"},
-{youtube: "https://www.youtube.com/watch?v=eDshx6Rg9Hs", name: "https://slotoking.ua/"},
-{youtube: "https://www.youtube.com/watch?v=ALZHF5UqnU4", name: "https://slotoking.ua/"},
-{youtube: "https://www.youtube.com/watch?v=Puq7-gH7FJ8", name: "https://slotoking.ua/"},
-{youtube: "https://www.youtube.com/watch?v=_kHBAKbNK0A", name: "https://slotoking.ua/"},
+{youtube: "https://www.youtube.com/watch?v=3KZlggHqU7M", name: "Perturbator - Vengeance"},
+{youtube: "https://www.youtube.com/watch?v=7f8TWRxTVPE", name: "Perturbator - I am the Night"},
+{youtube: "https://www.youtube.com/watch?v=4drHKqrLgiw", name: "Perturbator - Desire"},
+{youtube: "https://www.youtube.com/watch?v=ZhhQrFfzFM4", name: "Carpeter Brut - Escape from Midwich Valley"},
 ];
 
 // Random music order?
@@ -143,13 +137,9 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-    "Звери не плачут. Вытри слезы и не притворяйся человеком.",
-    "Я не лучше других. Просто конкретно крутой.",
-    "Каждый пацанский шаг делает тебя на шаг дальше.",
-    "Волкам не нужны правила поведения.",
-    "Когда собаки лают, волк не дергается.",
-    "Крутость – не пугаться обстоятельств.",
-
+    "Не забудьте вступить в дискорд сервера! В нем находится вся необходимая информация о работоспособности и обновлениях сервера! - /discord",
+    "После вступления в игру, не забудьте ознакомиться с внутри-игровыми правилами сервера! - /rules",
+    "Некорректное отображение моделей/текстур ? - /content",
 ];
 // Random message order?
 // 'true' or 'false'
@@ -176,3 +166,4 @@ var l_showErrorsIngame = true;
 var checkConfigFile = function() {
 	return true;
 };
+
